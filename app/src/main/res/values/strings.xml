@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">单词随身听</string>
+    
+    <!-- 导航 -->
+    <string name="nav_player">随身听</string>
+    <string name="nav_review">刷词模式</string>
+    <string name="nav_library">词库管理</string>
+    <string name="nav_settings">设置</string>
+    
+    <!-- 词库管理 -->
+    <string name="import_library">导入词库</string>
+    <string name="library_name">词库名称</string>
+    <string name="word_count">单词数量：%d</string>
+    <string name="import_success">导入成功，共%1$d个单词，去重%2$d个</string>
+    <string name="import_error">文件格式错误，请检查文件或分隔符</string>
+    <string name="activate_library">激活</string>
+    <string name="delete_library">删除</string>
+    <string name="delete_confirm">确认删除词库？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="active">当前词库</string>
+    
+    <!-- 播放控制 -->
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="next">下一个</string>
+    <string name="previous">上一个</string>
+    <string name="random">随机播放</string>
+    <string name="loop">循环播放</string>
+    <string name="speed">语速</string>
+    <string name="interval">间隔</string>
+    <string name="seconds">秒</string>
+    
+    <!-- 播放模式 -->
+    <string name="playback_mode_hide_all">隐藏单词和意思</string>
+    <string name="playback_mode_cn_only">只听中文</string>
+    <string name="playback_mode_word_only">只读单词</string>
+    <string name="playback_mode_word_to_cn">单词-&gt;中文</string>
+    <string name="speak_word">朗读单词</string>
+
+    <!-- 刷词模式 -->
+    <string name="show_all">显示全部</string>
+    <string name="hide_word">隐藏单词</string>
+    <string name="hide_meaning">隐藏中文</string>
+    
+    <!-- 组管理 -->
+    <string name="group">组 %d</string>
+    <string name="words_count">%d 个单词</string>
+    <string name="listened">已听过</string>
+    <string name="reviewed">已刷过</string>
+    <string name="select_groups">选择组</string>
+    
+    <!-- 错误信息 -->
+    <string name="tts_error">TTS引擎不可用或语言包缺失</string>
+    <string name="tts_settings">前往TTS设置</string>
+    <string name="no_words">没有单词</string>
+    <string name="no_library">请先导入或选择词库</string>
+    <string name="no_file_access">无法访问文件</string>
+    <string name="no_library_selected">没有激活的词库</string>
+    <string name="no_group_selected">没有选择任何分组</string>
+    <string name="no_words_in_group">当前分组没有单词</string>
+    
+    <!-- 其他 -->
+    <string name="loading">加载中…</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确认</string>
+    <string name="dialog_delete_title">确认删除</string>
+    <string name="dialog_delete_message">您确定要删除词库“%1$s”吗？此操作无法撤销。</string>
+</resources>
